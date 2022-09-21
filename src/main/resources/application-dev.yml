@@ -1,0 +1,8 @@
+flink:
+  historyServer:
+    address: http://bigdata-master:8081
+    job: /job/overview
+  checkpoint:
+    dir: hdfs://bigdata-master:8020/completed-jobs/
+    hdfs: hdfs://bigdata-master:8082
+    remain: "0"

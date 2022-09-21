@@ -1,0 +1,8 @@
+flink:
+  historyServer:
+    address: http://master:8082/
+    job: /job/overview
+  checkpoint:
+    dir: hdfs://slave4:9000/flink/flink-checkpoints/
+    defaultFS: hdfs://slave4:9000
+    remain: "0"
